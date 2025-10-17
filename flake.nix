@@ -35,7 +35,7 @@
         grails245 = pkgs.stdenv.mkDerivation {
           name = "grails-2.4.5";
           src = pkgs.fetchzip {
-            url = "https://github.com/grails/grails-core/releases/download/v2.4.5/grails-2.4.4.zip";
+            url = "https://github.com/grails/grails-core/releases/download/v2.4.5/grails-2.4.5.zip";
             sha256 = "sha256-U93rR7AouzyN/uj1RTx/o5Ehaw/XLwxFxN7Vdh0xtAc=";
           };
           installPhase = ''
